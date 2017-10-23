@@ -12,9 +12,34 @@
     </nav>
     <div class="tab-content" id=tab-content>
         <div class="tab-pane text-sm-center active" id="sidebar-home-content">
-            <img class="site-author-image m-2" itemprop="image" src=" http://comic.szhshp.org/comic/10101/headshot/0 (2).png">
-            <div class="text-warning">Szhshp</div>
-            {% include nav-links.html %}
+          <ul class="sidebar-nav">
+	    <li title="Home">
+              <a href="{{site.url}}{{site.baseurl}}/index.html">
+		<i class="fa fa-home" aria-hidden="true"></i>
+		Home  
+              </a>
+	    </li>
+	    <li title="archives">
+              <a href="{{site.url}}{{site.baseurl}}/index.html#archives">
+		<i class="fa fa-file-archive-o" aria-hidden="true"></i>
+		Archives  
+		<span class="text-warning pull-right">{{ site.posts.size}}</span>
+              </a>
+	    </li>
+	    <li title="categories">
+              <a href="{{site.url}}{{site.baseurl}}/categories.html">
+		<i class="fa fa-tags" aria-hidden="true"></i>
+		Categories 
+		<span class="text-warning pull-right">{{ site.categories.size}}</span>
+              </a>
+	    </li>
+	    <li title="messager">
+              <a href="{{site.url}}{{site.baseurl}}/about.html" >
+		<i class="fa fa-comments" aria-hidden="true"></i>
+		Messager
+              </a>
+	    </li>
+	  </ul>
         </div>
         <div class="tab-pane fade text-sm-left" id="sidebar-toc-content">
         </div>
