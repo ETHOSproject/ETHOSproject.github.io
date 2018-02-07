@@ -1,7 +1,6 @@
 ---
-layout: post
 title: People - Project ETHOS
-category : Intro
+permanentlink : people.html
 tags : [intro, tag1, tag2]
 stickie: true
 ---
