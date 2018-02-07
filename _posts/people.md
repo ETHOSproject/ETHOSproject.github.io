@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll Theme - Project Gaia
+title: People - Project ETHOS
 category : Intro
 tags : [intro, tag1, tag2]
 stickie: true
